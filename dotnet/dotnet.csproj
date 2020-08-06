@@ -5,6 +5,10 @@
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
     <UserSecretsId>63b3b33c-34dc-414a-8903-7486716efa78</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <PackageId>AppLogger</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>vandna</Authors>
+    <Company>vanarg</Company>
   </PropertyGroup>
 
 

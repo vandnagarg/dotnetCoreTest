@@ -12,7 +12,7 @@ using System;
 using System.Reflection;
 
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("63b3b33c-34dc-414a-8903-7486716efa78")]
-[assembly: System.Reflection.AssemblyCompanyAttribute("dotnet")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("vanarg")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]

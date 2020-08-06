@@ -12235,7 +12235,7 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "D:\\nagp\\5 devops\\prac\\dotnettest\\dotnet\\dotnet\\dotnet.csproj",
-      "projectName": "dotnet",
+      "projectName": "AppLogger",
       "projectPath": "D:\\nagp\\5 devops\\prac\\dotnettest\\dotnet\\dotnet\\dotnet.csproj",
       "packagesPath": "C:\\Users\\vandnagarg\\.nuget\\packages\\",
       "outputPath": "D:\\nagp\\5 devops\\prac\\dotnettest\\dotnet\\dotnet\\obj\\",
