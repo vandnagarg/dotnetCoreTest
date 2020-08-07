@@ -6663,7 +6663,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\WINDOWS\\system32\\config\\systemprofile\\.nuget\\packages\\": {},
+    "C:\\Users\\vandnagarg\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -6672,7 +6672,7 @@
       "projectUniqueName": "D:\\nagp\\5 devops\\prac\\dotnettest\\dotnet\\XUnitTestProject1\\XUnitTestProject1.csproj",
       "projectName": "XUnitTestProject1",
       "projectPath": "D:\\nagp\\5 devops\\prac\\dotnettest\\dotnet\\XUnitTestProject1\\XUnitTestProject1.csproj",
-      "packagesPath": "C:\\WINDOWS\\system32\\config\\systemprofile\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\vandnagarg\\.nuget\\packages\\",
       "outputPath": "D:\\nagp\\5 devops\\prac\\dotnettest\\dotnet\\XUnitTestProject1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
