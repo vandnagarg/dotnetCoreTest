@@ -92,8 +92,6 @@ D:\nagp\5 devops\prac\dotnettest\dotnet\XUnitTestProject1\obj\Debug\netcoreapp3.
 D:\nagp\5 devops\prac\dotnettest\dotnet\XUnitTestProject1\obj\Debug\netcoreapp3.1\XUnitTestProject1.csproj.CopyComplete
 D:\nagp\5 devops\prac\dotnettest\dotnet\XUnitTestProject1\obj\Debug\netcoreapp3.1\XUnitTestProject1.dll
 D:\nagp\5 devops\prac\dotnettest\dotnet\XUnitTestProject1\obj\Debug\netcoreapp3.1\XUnitTestProject1.pdb
-D:\nagp\5 devops\prac\dotnettest\dotnet\XUnitTestProject1\bin\Debug\netcoreapp3.1\dotnet.Views.dll
-D:\nagp\5 devops\prac\dotnettest\dotnet\XUnitTestProject1\bin\Debug\netcoreapp3.1\dotnet.Views.pdb
 D:\nagp\5 devops\prac\dotnettest\dotnet\XUnitTestProject1\bin\Debug\netcoreapp3.1\appsettings.Development.json
 D:\nagp\5 devops\prac\dotnettest\dotnet\XUnitTestProject1\bin\Debug\netcoreapp3.1\appsettings.json
 D:\nagp\5 devops\prac\dotnettest\dotnet\XUnitTestProject1\bin\Debug\netcoreapp3.1\Properties\launchSettings.json

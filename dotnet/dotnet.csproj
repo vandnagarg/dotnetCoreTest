@@ -9,6 +9,7 @@
     <Version>1.0.0</Version>
     <Authors>vandna</Authors>
     <Company>vanarg</Company>
+    <IsPackable>true</IsPackable>
   </PropertyGroup>
 
 

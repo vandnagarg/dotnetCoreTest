@@ -8,9 +8,9 @@
     ".NETCoreApp,Version=v3.1": {
       "XUnitTestProject1/1.0.0": {
         "dependencies": {
+          "AppLogger": "1.0.0",
           "Microsoft.NET.Test.Sdk": "16.2.0",
           "coverlet.collector": "1.0.1",
-          "dotnet": "1.0.0",
           "xunit": "2.4.0",
           "xunit.runner.visualstudio": "2.4.0"
         },
@@ -1344,7 +1344,7 @@
           "Microsoft.NET.Test.Sdk": "16.2.0"
         }
       },
-      "dotnet/1.0.0": {
+      "AppLogger/1.0.0": {
         "dependencies": {
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.9.10"
         },
@@ -2060,7 +2060,7 @@
       "path": "xunit.runner.visualstudio/2.4.0",
       "hashPath": "xunit.runner.visualstudio.2.4.0.nupkg.sha512"
     },
-    "dotnet/1.0.0": {
+    "AppLogger/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
