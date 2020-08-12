@@ -7,14 +7,14 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/core/sdk:2.2-stretch AS build
 WORKDIR /src
-COPY ["dotnet/dotnet.csproj", "dotnet/"]
+COPY ["dotnet.csproj", "dotnet/"]
 RUN dotnet restore "dotnet/dotnet.csproj"
 COPY . .
 WORKDIR "/src/dotnet"
-RUN dotnet build "dotnet.csproj" -c Release -o /app/build
+RUN dotnet build "../dotnet.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "dotnet.csproj" -c Release -o /app/publish
+RUN dotnet publish "../dotnet.csproj" -c Release -o /app/publish
 
 FROM base AS final
 WORKDIR /app
