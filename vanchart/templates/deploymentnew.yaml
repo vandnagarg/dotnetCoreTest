@@ -1,0 +1,38 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: vandnagarg-nagp-dotnetnew
+  labels:
+    app: dotnetservice
+spec:
+  replicas: {{ .Values.replicaCount }} 
+  selector:
+    matchLabels:
+      app: dotnetservice
+  template:
+    metadata:
+      labels:
+        app: dotnetservice
+    spec:
+      containers:
+      - name: dotnetservice
+        image: {{ .Values.image.repository }}
+        imagePullPolicy: Always
+        ports:
+          - containerPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: vandnagarg-nagp-dotnetservicenew
+  labels:
+    app: dotnetservice
+spec:
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 80
+    nodePort: {{ .Values.nodePort }} 
+  selector:
+    app: dotnetservice
+  type: NodePort 
